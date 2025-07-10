@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "quarto_website"
+  navbar:
+    left:
+      - href: quarto_files/index.qmd
+        text: Home
+      - quarto_files/about.qmd
+      - quarto_files/01_sample_processing.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
